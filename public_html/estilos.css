@@ -1,0 +1,81 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 05-oct-2017, 18:59:46
+    Author     : rasul
+*/
+html{
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
+
+.menu{
+    display: inline;
+}
+
+.contenedorMenu{
+    position: absolute;
+    min-width: 46%;
+    margin-left: 25%;
+    padding: 1%;
+    background-color: red;    
+    color: white;
+    font-weight: bold;
+}
+
+.iniciar, .ayuda{
+    position: relative;
+    float: right;
+    padding-left: 40px;
+}
+
+.contenedorProductos{
+    position: absolute;
+    top: 15%;
+    min-width: 50%;
+    margin-left: 25%;
+}
+
+.producto{
+    position: relative;
+    float: left;
+    border: solid 1px;
+    text-align: center;
+    width: 30%;
+}   
+
+#contenedorCarrito{
+    position: absolute;
+    top: 55%;
+    min-width: 48%;
+    border: solid 1px;
+    margin-left: 25%;
+}
+
+#carrito{
+    position: relative;
+    float: left;
+    border: solid 1px;
+    text-align: center;
+    width: 30%;
+}
+
+#contenedorCarrito > p {
+    position: relative;
+}
+/* HOVERS */
+
+.logo:hover, input{
+   cursor: pointer;
+} 
+
+.iniciar:hover, .ayuda:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+

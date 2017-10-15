@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Media Markt der shino</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
+        <script src="clickComprar.js" type="text/javascript"></script>
+    </head>
+    <body>        
+        <div class="contenedorMenu">
+            <div class="menu logo">MediaMocs</div>
+            <div class="menu iniciar">Iniciar Sesion</div>
+            <div class="menu ayuda">Ayuda</div>
+        </div>
+        
+        <div class="contenedorProductos">
+            <div class="producto" >
+                <img src="./img/portatil1.png" alt="portatil1"/>
+                <input type="button" value="comprar" id="portatil1" onclick="comprar(this.id)"/>
+            </div>
+            <div class="producto" >
+                <img src="./img/portatil2.png" alt="portatil2" />
+                <input type="button" value="comprar" id="portatil2" onclick="comprar(this.id)"/>
+            </div>
+            <div class="producto" >
+                <img src="./img/portatil3.png" alt="portatil3" />
+                <input type="button" value="comprar" id="portatil3" onclick="comprar(this.id)"/>
+            </div>
+        </div>
+        
+        <div id="contenedorCarrito" >
+            
+        </div>
+                
+    </body>
+    
+</html>
